@@ -11,6 +11,8 @@ public abstract class Metal {
 	public LocalDate fecha;
 	public boolean asignada = false;
 	
+	//Creo una variable tipo long para establecerle un id a los metales
+	public long id;
 	public Metal() {
 	}
 	
